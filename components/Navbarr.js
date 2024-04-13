@@ -19,10 +19,10 @@ const Navbarr = () => {
    <div className=' basis-1/2 text-sm grid grid-col-1 justify-items-end   gap-y-3  pt-3 md:hidden'>
     <FaRegWindowClose className='text-xl  ' onClick={handleClick}/>
     <div className=' text-sm grid grid-col-1 justify-items-end  gap-y-2  '>
-   <Link href='/home' >Home</Link>
-   <Link href='/course'>Course</Link>
-   <Link href='career'>Career advice</Link>
-   <Link href='companies'>Company A-Z</Link>
+   <Link href='/' >Home</Link>
+   <Link href='/joblist'>JobList</Link>
+   <Link href='/career'>Career advice</Link>
+   <Link href='/companies'>Company A-Z</Link>
    <Link href='/login'>Login</Link></div>
    <button className='border-2 rounded-lg py-2 px-4 bg-[#56BC80] text-white' >Register</button>
    </div>
@@ -32,9 +32,9 @@ const Navbarr = () => {
 
 <div className=' hidden md:inline md:basis-1/2 md:text-sm md:flex md:justify-evenly md:items-center'>
    <Link href='/' >Home</Link>
-   <Link href='/course'>Course</Link>
-   <Link href='career'>Career advice</Link>
-   <Link href='companies'>Company A-Z</Link>
+   <Link href='/joblist'>JobList</Link>
+   <Link href='/career'>Career advice</Link>
+   <Link href='/companies'>Company A-Z</Link>
 </div> 
     <div className='hidden md:inline md:basis-1/4 md:text-sm  md:flex md:justify-evenly md:items-center'>
     <Link href='/login'>Login</Link>

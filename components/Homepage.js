@@ -7,13 +7,13 @@ import Latest from "@/components/Latest";
 import Review from '@/components/Review'
 import Register from "@/components/Register";
 
-const Home = () => {
+const Homepage = () => {
   return (
     <div>
-        <Navbarr />
+         <Navbarr />
    <About />
    <Feature />
-   {/* <Latest /> */}
+   <Latest />
    <Review />
    <Register />
    <Footer />
@@ -21,4 +21,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Homepage

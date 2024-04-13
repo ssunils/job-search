@@ -1,16 +1,20 @@
-
-
+'use client'
 import React from 'react'
-import Home from "@/components/Home";
-// import Joblist from '@/components/Joblist';
+import Mainpage from '@/components/Mainpage';
+import Link from 'next/link';
+// import homepage from '../components/Homepage';
+import Navbarr from '@/components/Navbarr';
 
-const page = () => {
+import JobList from '@/components/JobList';
+import Homepage from '@/components/Homepage';
+
+
+
+export default function Home() {
   return (
-    <div>
-      <Home />
-  
-    </div>
-  )
-}
+    <main >
+    <Homepage />
 
-export default page
+    </main>
+  );
+}

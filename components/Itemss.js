@@ -26,7 +26,7 @@ const Itemss = () => {
                 }
     ]
   return (
-    <div className=' md:grid md:grid-cols-3 md:gap-x-4'>
+    <div className='animate__animated animate__fadeInDown md:grid md:grid-cols-3 md:gap-x-4'>
         {data.map((dataa) => {
             return(
             <Fcard key={dataa.id} data1={dataa}/>
